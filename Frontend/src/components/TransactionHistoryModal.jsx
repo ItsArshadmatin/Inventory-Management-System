@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+const API_BASE_URL = "https://inventory-management-system-p6oa.onrender.com";
+
 const TransactionHistoryModal = ({ show, onClose }) => {
     const [transactions, setTransactions] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -13,7 +15,7 @@ const TransactionHistoryModal = ({ show, onClose }) => {
     const fetchTransactions = async () => {
         setLoading(true);
         try {
-            const res = await fetch('/api/transactions');
+            const res = await fetch(`${API_BASE_URL}/api/transactions`);
             if (res.ok) {
                 const data = await res.json();
                 setTransactions(data);

@@ -11,6 +11,9 @@ import withReactContent from 'sweetalert2-react-content'
 
 const MySwal = withReactContent(Swal)
 
+// Backend URL
+const API_BASE_URL = "https://inventory-management-system-p6oa.onrender.com";
+
 function App() {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
@@ -32,8 +35,8 @@ function App() {
     try {
       setLoading(true);
       const [prodRes, catRes] = await Promise.all([
-        fetch('/api/products'),
-        fetch('/api/categories')
+        fetch(`${API_BASE_URL}/api/products`),
+        fetch(`${API_BASE_URL}/api/categories`)
       ]);
 
       const prodData = await prodRes.json();
@@ -62,7 +65,7 @@ function App() {
   };
 
   const handleStockAction = async (productId, quantity, type, reason) => {
-    const endpoint = type === 'IN' ? '/api/stock/in' : '/api/stock/out';
+    const endpoint = type === 'IN' ? `${API_BASE_URL}/api/stock/in` : `${API_BASE_URL}/api/stock/out`;
     try {
       const res = await fetch(endpoint, {
         method: 'POST',
@@ -101,7 +104,7 @@ function App() {
   // Create Product Helper
   const handleCreateProduct = async (newProduct) => {
     try {
-      const res = await fetch('/api/products', {
+      const res = await fetch(`${API_BASE_URL}/api/products`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newProduct)
@@ -138,7 +141,7 @@ function App() {
   // Add Category Helper
   const handleAddCategory = async (newCategory) => {
     try {
-      const res = await fetch('/api/categories', {
+      const res = await fetch(`${API_BASE_URL}/api/categories`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newCategory)
@@ -185,7 +188,7 @@ function App() {
     if (!result.isConfirmed) return;
 
     try {
-      const res = await fetch(`/api/categories/${id}`, {
+      const res = await fetch(`${API_BASE_URL}/api/categories/${id}`, {
         method: 'DELETE'
       });
 
