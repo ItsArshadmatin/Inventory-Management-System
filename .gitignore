@@ -1,0 +1,15 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.pdb
+
+# Node.js
+node_modules/
+dist/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
