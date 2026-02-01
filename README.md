@@ -43,22 +43,25 @@ npm run dev
 _App runs at: http://localhost:5173_
 
 ## 📸 Screenshots
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc5ee210-d654-4781-8b68-0ddc5b408783" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e5c56085-f8fc-4439-b478-13cbbc8ab2bb" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/331421e6-6b21-40a7-b43d-17d134f622c3" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/311137be-eaed-4f2d-82d7-196598e2f9d2" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19e1fa4b-ef36-4091-91a1-f0e9a7d7795f" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e707acfb-1ff4-4dc2-8c54-8791f7878a67" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/672dfe6b-5610-43ef-8d9d-06753ec0bff1" />
+<img width="1920" height="1013" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/7d3fbf9c-6b41-481a-9269-230037cbbf40" />
 
 
+<img width="1920" height="1013" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/2d6ea665-6866-408a-bbeb-3b8bb9e780d3" />
 
+
+<img width="1920" height="1012" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/e7254005-1b98-4b28-b73e-5b49930bc124" />
+
+
+<img width="1920" height="1012" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/e4dc2e05-811c-4820-84df-1b84b6cba2b4" />
+
+
+<img width="1920" height="1008" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/c3ead5e6-e634-426a-a537-6f6a18211e57" />
+
+
+<img width="1920" height="1012" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/bf4f92f3-03ee-4b47-8d89-a4098a08573d" />
+
+
+<img width="1920" height="1000" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/b9691b61-f5dd-487c-9f4b-3799eb6a01cc" />
 
 
 
